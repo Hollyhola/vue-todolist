@@ -13,7 +13,7 @@
         <div class="form-group">
             <div class="col-sm-12">
                 <label>备注</label>
-                <input type="date" class="form-control" v-model="date" placeholder="Date"/>
+                <input type="text" class="form-control" v-model="comment" placeholder="comment"/>
             </div>
         </div>
         <button class="btn btn-primary" @click="save()">保存</button>
@@ -26,7 +26,7 @@
         name: 'LongTime',
         data() {
             return {
-                data: '',
+                date: '',
                 totalTime: '',
                 comment: ''
             }

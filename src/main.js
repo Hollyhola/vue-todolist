@@ -12,7 +12,7 @@ import TimeEntries from './components/TimeEntries'
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
-Vue.use(Vuex)
+// Vue.use(Vuex)
 const routes = [
     {path: '/',component: Home},
     {path: '/home', component: Home},
