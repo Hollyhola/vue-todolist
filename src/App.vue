@@ -26,11 +26,10 @@
 
 <script>
 import Sidebar from './components/Sidebar.vue'
-import TimeEntries from './components/TimeEntries'
 export default {
   name: 'app',
   components: {
-    Sidebar,TimeEntries
+    Sidebar
   }
 }
 </script>
@@ -45,5 +44,5 @@ export default {
   margin-top: 60px;
 }
 
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 </style>
